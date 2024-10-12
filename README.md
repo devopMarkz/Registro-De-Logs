@@ -7,26 +7,26 @@ Este é um sistema de **Registro de Logs** desenvolvido em Java, projetado para 
 src/  
 │  
 ├── application/  
-│   └── Program.java                # Classe principal que contém o ponto de entrada do programa.  
+│   └── Program.java  
 │  
 ├── model/  
 │   ├── entities/  
-│   │   ├── GerenciadorDeLog.java    # Gerencia a criação de logs, usando apenas interfaces.  
-│   │   └── Usuario.java             # Representa um usuário no sistema.  
+│   │   ├── GerenciadorDeLog.java  
+│   │   └── Usuario.java  
 │   │  
 │   ├── services/  
-│   │   ├── fileConversion/          # Serviços para conversão de arquivos.  
+│   │   ├── fileConversion/  
 │   │   │   ├── FileConversionService.java  
 │   │   │   └── TxtConverter.java  
-│   │   └── fileFinder/              # Serviços para localizar arquivos no sistema.  
+│   │   └── fileFinder/  
 │   │       ├── FileFinderService.java  
 │   │       └── FindFileTxt.java  
 │   │  
 │   └── utils/  
-│       └── ClassScanner.java        # Utilitário para varrer classes no projeto.  
+│       └── ClassScanner.java  
 │  
 └── RegistroDeLogs/  
-    └── logs.txt                     # Arquivo de log gerado pelo sistema.  
+    └── logs.txt  
  
 
 
